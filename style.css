@@ -1,0 +1,261 @@
+* {
+    margin: 0;
+    font-family: Arial;
+    border: border-box;
+}
+
+/**navigation bar**/
+.navbar {
+    height: 60px;
+    background-color: #0f1111;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+/**logo**/
+.nav-logo {
+    height: 50px;
+    width: 100px;
+}
+
+.logo {
+    background-image: url("amazon_logo.png");
+    background-size: cover;
+    height: 50px;
+    width: 100px;
+}
+
+/**border and hovor**/
+.border {
+    border: 1.5px solid transparent;
+}
+
+.border:hover {
+    border: 1.5px solid white;
+}
+
+.add-fir {
+    color: #cccccc;
+    size: 0.85 rem;
+    margin-left: 15px;
+}
+
+.add-sec {
+    size: 1 rem;
+    margin-left: 3px;
+}
+
+/**location icon**/
+.add-icon {
+    display: flex;
+    align-items: center;
+}
+
+/**search bar**/
+.nav-search {
+    display: flex;
+    width: 620px;
+    height: 40px;
+    border-radius: 4px;
+    background-color: rgb(255, 153, 0);
+    justify-content: space-evenly;
+}
+
+.nav-search:hover {
+    border: 2px solid orange;
+}
+
+/**all select opt**/
+.nav-select {
+    background-color: #f3f3f3;
+    border-top-left-radius: 4px;
+    border-bottom-left-radius: 4px;
+    width: 50px;
+    text-align: center;
+    border: none;
+}
+
+/**input box for search**/
+.nav-input {
+    border: none;
+    width: 100%;
+    font-size: 1rem;
+}
+
+/**search icon**/
+.search-icon {
+    width: 45px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.5rem;
+    background-color: rgb(255, 153, 0);
+    border-top-right-radius: 4px;
+    border-bottom-right-radius: 4px;
+    color: #0f1111;
+
+}
+
+/**hello and return**/
+span {
+    font-size: 0.7rem;
+}
+
+/**account and order**/
+.nav-l {
+    font-size: 16px;
+    font-weight: 700;
+}
+
+/**cart icon**/
+.nav-cart i {
+    font-size: 30px;
+}
+
+/**cart txt**/
+.nav-cart {
+    font-size: 16px;
+    font-weight: 700px;
+}
+
+/**panel after navbar**/
+.panel {
+    background-color: #222f3d;
+    display: flex;
+    color: white;
+    justify-content: space-evenly;
+    height: 40px;
+    align-items: center;
+}
+
+/**5 optns**/
+.panel-opt {
+    width: 70%;
+    font-size: 0.9rem;
+}
+
+.panel-opt p {
+    display: inline;
+    margin: 15px;
+}
+
+/**shop deals in electronics**/
+
+.panel-deal {
+    font-size: 0.9rem;
+    font-weight: 700;
+}
+
+.hero-sec {
+    background-image: url("hero_image.jpg");
+    background-size: cover;
+    height: 350px;
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+
+}
+
+.hero-msg {
+    background-color: white;
+    color: black;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 0.9rem;
+    width: 80%;
+    margin-bottom: 25px;
+}
+
+.hero-msg a {
+    color: #007185;
+}
+
+.shop-sec {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    background-color: #d3f5ee;
+
+}
+
+.box {
+    margin: 10px;
+    width: 23%;
+    height: 400px;
+    background-color: white;
+    text-align: center;
+
+}
+
+.box p {
+    text-align: left;
+    margin-left: 10px;
+    font-size: 0.9rem;
+    color: #007185;
+}
+
+.box h2 {
+    margin-top: 1rem;
+}
+
+.b1img {
+    display: flex;
+    margin: 10px 10px 10px 10px;
+    height: 300px;
+    background-size: cover;
+}
+.panel1{
+    align-items: center;
+    display: flex;
+    height: 50px;
+    color:white;
+    background-color: #37475a;
+    justify-content: center;
+    font-size: 0.9rem;
+}
+.panel2{
+color: white;
+background-color: #222f3d;
+display: flex;
+justify-content: space-evenly;
+height: 300px;
+
+}
+.panel2 p{
+    margin-top: 20px;
+}
+.panel2 a{
+  display: block;
+  margin-top: 2px;
+  font-size: 0.9rem;
+  color: #dddddd;
+}
+.panel3{
+    border-top: 1.5px solid white;
+    height:70px;
+    width: 100%;
+    background-color: #222f3d;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+} 
+.panel4{
+    background-color: #0f1111;
+    color: white;
+    font-size: 0.7rem;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.panel4 a{
+    margin-top: 10px;
+}
+.panel4 p{
+    margin-left: 10px;
+    margin-top: 2px;
+}
