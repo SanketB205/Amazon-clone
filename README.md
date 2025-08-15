@@ -5,6 +5,8 @@ A static Amazon homepage clone built using HTML & CSS. This project focuses on p
 - Product grid layout
 - Footer with multiple sections
 - Fully responsive design
+## 📷 Preview
+![Preview](https://github.com/SanketB205/Amazon-clone/blob/main/clonePreview.jpg?raw=true)
 ## 🛠 Tech Stack
 - HTML5
 - CSS3
